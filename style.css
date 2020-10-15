@@ -1,0 +1,116 @@
+  .navbar-brand{
+    font-family:'Ubuntu', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .navbar{
+    padding: 3rem;
+    padding-left: 7rem;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+  }
+
+  #title{
+    background-color: #F8F9FA;
+
+  }
+
+  img{
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  }
+
+  h4{
+    padding-top: 1rem;
+    padding-right: 2rem;
+  }
+
+  #works{
+    background-color: #F8F9FA;
+    padding-bottom: 3rem;
+    color: black;
+  }
+  a {
+  color: black;
+   text-decoration: none;
+}
+a:hover{
+  color: white;
+   text-decoration: none;
+}
+
+
+  p{
+  padding: 0rem;
+  }
+  #footer{
+    padding-top: 4rem;
+  }
+
+  .row{
+    padding-top: 4rem;
+    padding-left: 4rem;
+  }
+
+
+  #footer{
+    background-color: #343A40;
+    padding-bottom: 1rem;
+    color: white;
+  }
+  .photo{
+    position: relative;
+    top: 1.5rem;
+    padding: 0;
+  }
+  #about{
+    background-color: #F8F9FA;
+    padding-bottom: 6rem;
+    color: black;
+  }
+
+  #about,#works,#contact,#still, #fashion, #portraits, #intarc, #events {
+  position: relative;
+  overflow-x: hidden;
+  }
+  #contact{
+    padding: 5rem;
+    padding-top: 3rem;
+    background-color: #F8F9FA;
+  }
+  .fa {
+    padding: 0.1rem;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    margin-top: 2rem;
+  }
+  body{
+    background-color: #F8F9FA;
+  }
+  .fas{
+    padding: 2rem;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 1200px) {
+    .photo{
+      position: relative;
+      bottom: 4rem;
+      width: 20rem; height: 20rem;
+    }
+    h5{
+        text-align: center;
+    }
+  }
